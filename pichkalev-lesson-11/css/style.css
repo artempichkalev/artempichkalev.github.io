@@ -1,0 +1,115 @@
+
+/*h1 {
+	font-family: 'OpenSansExtrabold', sans-serif;
+}
+*/
+
+/*body {
+	box-sizing: border-box;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+
+@font-face {
+    font-family: 'OpenSansExtrabold';
+    src: url('../fonts/OpenSansExtrabold.eot');
+    src: url('../fonts/OpenSansExtrabold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansExtrabold.woff2') format('woff2'),
+         url('../fonts/OpenSansExtrabold.woff') format('woff'),
+         url('../fonts/OpenSansExtrabold.ttf') format('truetype'),
+         url('../fonts/OpenSansExtrabold.svg#OpenSansExtrabold') format('svg');
+}
+
+.main_head {
+	margin-top: 3%;
+}
+
+.main_logo_border {
+	border: 3px solid #706b73;
+	width: 155px;
+	height: 55px;
+	text-align: center;
+	line-height: 49px;
+
+}
+
+.main_logo {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	color: #706b73;
+}
+
+.main_logo_border p span {
+	color: #fa9a87;
+}
+
+.main_nav {
+	text-align: right;
+}
+
+.main_nav_bar {
+	display: block;
+	width: 35px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+
+
+.line {
+	display: block;
+	position: absolute;
+	width: 35px;
+	height: 2px;
+	background-color: #706b73;
+	right: 0;
+	top: 50%;
+	margin-top: 6px;
+	-webkit-transform: translateY(-1px);
+	 -ms-transform: translateY(-1px);
+	 -o-transform: translateY(-1px);
+	 transform: translateY(-1px); 
+}
+
+.line:before {
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 50%;
+	content: " ";
+	width: 35px;
+	height: 2px;
+	background-color: #706b73;
+	-webkit-transform: translateY(-6px);
+	 -ms-transform: translateY(-6px);
+	 -o-transform: translateY(-6px);
+	 transform: translateY(-6px); 
+	 border-radius: inherit;
+}
+
+.line:after {
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 50%;
+	content: " ";
+	width: 35px;
+	height: 2px;
+	background-color: #706b73;
+	-webkit-transform: translateY(4px);
+	 -ms-transform: translateY(4px);
+	 -o-transform: translateY(4px);
+	 transform: translateY(4px); 
+	 border-radius: inherit;
+}
+
+.box_radius {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
