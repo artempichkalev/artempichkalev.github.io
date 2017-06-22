@@ -1,4 +1,3 @@
-
 /*h1 {
 	font-family: 'OpenSansExtrabold', sans-serif;
 }
@@ -19,6 +18,16 @@
          url('../fonts/OpenSansExtrabold.woff') format('woff'),
          url('../fonts/OpenSansExtrabold.ttf') format('truetype'),
          url('../fonts/OpenSansExtrabold.svg#OpenSansExtrabold') format('svg');
+}
+
+
+.warp_burger {
+	position: absolute;
+	display: block;
+	right: 0;
+	width: 35px;
+	height: 14px;
+	/*border: 1px solid black;*/
 }
 
 .main_head {
@@ -47,6 +56,7 @@
 
 .main_nav {
 	text-align: right;
+	height: 200px;
 }
 
 .main_nav_bar {
@@ -60,24 +70,24 @@
 
 .line {
 	display: block;
-	position: absolute;
+	position: relative;
 	width: 35px;
 	height: 2px;
 	background-color: #706b73;
 	right: 0;
 	top: 50%;
-	margin-top: 6px;
-	-webkit-transform: translateY(-1px);
+	/*margin-top: -1px;
+	margin-left: -1px;*/
+	/*-webkit-transform: translateY(-1px);
 	 -ms-transform: translateY(-1px);
 	 -o-transform: translateY(-1px);
-	 transform: translateY(-1px); 
+	 transform: translateY(-1px); */
 }
 
 .line:before {
-	position: absolute;
+	position: relative;
 	display: block;
-	right: 0;
-	top: 50%;
+	
 	content: " ";
 	width: 35px;
 	height: 2px;
@@ -90,10 +100,8 @@
 }
 
 .line:after {
-	position: absolute;
+	position: relative;
 	display: block;
-	right: 0;
-	top: 50%;
 	content: " ";
 	width: 35px;
 	height: 2px;
