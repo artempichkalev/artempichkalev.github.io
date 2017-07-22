@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+.open_light {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.open_reg {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.open_sbold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.open_bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.ybtn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  border: none;
+  font-size: 18px;
+  color: #000000;
+  background-image: linear-gradient(to top, #f6bd0f, #fbdd35);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 -2px 0 0 #d48f0b;
+  box-shadow: inset 0 -2px 0 0 #d48f0b;
+}
+.gbtn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  border: none;
+  display: inline-block;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #a6a6a6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 -2px 0 0 #d48f0b;
+  box-shadow: inset 0 -2px 0 0 #d48f0b;
+}
+#main_screen {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/header_bg.jpg) no-repeat center center #546475;
+  background-size: cover;
+}
+.menu_item {
+  padding: 0;
+}
+.menu_item a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  display: block;
+  padding: 0;
+  text-transform: uppercase;
+  line-height: 50px;
+  text-decoration: none;
+}
+.menu_item a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 1s;
+}
+.nav_row {
+  border-bottom: 1px solid #d2d9df;
+}
+.logo {
+  position: absolute;
+  display: block;
+  float: left;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.call_wrap_valign {
+  height: 130px;
+}
+.call_inner_align {
+  float: right;
+}
+.call_inner_align p {
+  margin: 0;
+  color: white;
+  line-height: 14px;
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.call_inner_align p.num_phone {
+  font-size: 36px;
+  line-height: 36px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.callm_btn {
+  margin-top: 10px;
+  width: 210px;
+  height: 40px;
+  font-size: 15px;
+}
